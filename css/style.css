@@ -1,0 +1,166 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: none;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    /* background: #111; */
+    background: url(../img/tri-background.png)center no-repeat fixed;
+}
+
+/* CURSOR */
+a {
+    cursor: none;
+}
+
+.cursor {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid #111;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.link-grow {
+    transform: scale(2);
+    background: #111;
+}
+
+/* Header */
+
+.inner-header {
+    position: relative;
+    /* border: 1px solid #111; */
+}
+
+.inner-header {
+    position: absolute;
+    top: 130px;
+    left: 100px;
+}
+
+.greet {
+    margin: 0 0 20px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #595353;
+}
+
+.greeting-name {
+    margin: 15px 0 0 0;
+    font-size: 5rem;
+}
+
+.about {
+    margin: -15px 0 0 0;
+    color: #595353;
+    font-size: 1.3rem;
+}
+
+.testimonial {
+    margin: 25px 0 0 0;
+    color: #595353;
+    font-size: 1.3rem;
+}
+
+
+main {
+    position: relative;
+}
+
+main img {
+    width: 700px;
+    position: absolute;
+    top: 27px;
+    left: 550px;
+}
+
+/* CONTACT */
+.contact {
+    position: relative;
+}
+
+.inner-contact {
+    position: absolute;
+    top: 530px;
+    left: 13px;
+}
+
+.contact h1 {
+    margin: 0 0 25px 0;
+}
+
+.personal {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.personal .email a {
+    text-decoration: none;
+    color: #595353;
+    transition: all .3s ease-in-out;
+}
+
+.personal .email a:hover {
+    color: #2b4a52;
+}
+
+.personal .phone a {
+    text-decoration: none;
+    color: #595353;
+    transition: all .3s ease-in-out;
+}
+
+.personal .phone a:hover {
+    color: #2b4a52;
+}
+
+/* Social Media */
+#social-icons {
+    position: relative;
+    font-size: 1.25rem;
+}
+
+.inner-design {
+    position: absolute;
+    top: 400px;
+    left: 1270px;
+}
+
+.inner-design a {
+    color: #111;
+    margin: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.inner-design a:hover {
+    color: #c6edf5;
+}
+
+#social-icons .inner-design span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: 5px;
+}
+
+span.rotate-me {
+    transform: rotate(-90deg);
+    margin-bottom: 15px !important;
+}
+
