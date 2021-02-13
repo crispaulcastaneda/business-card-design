@@ -223,9 +223,85 @@ span.rotate-me {
     ##Screen = B/w 481px to 767px
   */
 
-  @media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
-  }
+    .cursor {
+        display: none;
+    }
+
+    /* main-content */
+    #main-content {}
+
+    .inner-header {
+        position: absolute;
+        left: 1px;
+        top: 65px;
+        width: 800px;
+    }
+
+    h1.greet {
+        font-size: 3.5rem;
+    }
+
+    h1.greeting-name {
+        font-size: 7rem;
+    }
+
+    p.about {
+        font-size: 2.5rem;
+    }
+
+    p.testimonial {
+        font-size: 3rem;
+    }
+
+
+    /* Image Center */
+    main {
+        position: relative;
+    }
+
+    main img {
+        position: absolute;
+        top: 754px;
+        left: 110px;
+
+        width: 600px;
+    }
+
+    .inner-design {
+        position: absolute;
+        left: 730px;
+        top: 750px;
+
+        font-size: 2.5rem;
+    }
+
+    /* CONTACT */
+    .contact {
+        position: relative;
+    }
+
+    .inner-contact {
+        position: absolute;
+        left: 60px;
+    }
+
+    .inner-contact h1 {
+        display: none;
+    }
+
+    .personal {
+        display: flex;
+        justify-content: space-around;
+        width: 700px;
+    }
+
+    .for-cursor {
+        font-size: 2rem;
+    }
+
+}
 
   /*
     ##Device = Most of the Smartphones Mobiles (Portrait)
