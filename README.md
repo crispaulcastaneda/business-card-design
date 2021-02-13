@@ -9,4 +9,5 @@ It should fit to the mobile devices and work with any other browser with the cur
 
 ## Acknowledgements
 [Gokulkrish Mobile RWD](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488)
-[cdnjs](https://cdnjs.com/libraries/font-awesome)
+
+[cdnjs - fontawesome](https://cdnjs.com/libraries/font-awesome)
