@@ -214,9 +214,27 @@ span.rotate-me {
     ##Screen = B/w 768px to 1024px
   */
 
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Image */
+    main {
+        position: relative;
+    }
 
-  }
+    main img {
+        width: 50%;
+        position: absolute;
+        top: 325px;
+        left: 430px;
+    }
+
+    .inner-design {
+        position: absolute;
+        top: 350px;
+        left: 950px;
+
+        font-size: 2rem;
+    }
+}
 
   /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
